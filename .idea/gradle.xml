@@ -10,6 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/contexttest" />
+            <option value="$PROJECT_DIR$/globalvariable" />
             <option value="$PROJECT_DIR$/javapracticehome" />
           </set>
         </option>

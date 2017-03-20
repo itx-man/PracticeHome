@@ -1,1 +1,1 @@
-include ':app', ':javapracticehome'
+include ':app', ':javapracticehome', ':globalvariable', ':contexttest'

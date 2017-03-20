@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PracticeHome.iml" filepath="$PROJECT_DIR$/PracticeHome.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contexttest/contexttest.iml" filepath="$PROJECT_DIR$/contexttest/contexttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/globalvariable/globalvariable.iml" filepath="$PROJECT_DIR$/globalvariable/globalvariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/javapracticehome/javapracticehome.iml" filepath="$PROJECT_DIR$/javapracticehome/javapracticehome.iml" />
     </modules>
   </component>
