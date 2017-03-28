@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vivi.contexttest">
 
+    <!-- 新建一个MyApplication继承自Application,并在Mainfest中进行指定，
+         程序启动时会新建一个MyApplication的实例，如果不指定会默认创建
+         Application的实例。-->
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

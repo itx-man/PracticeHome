@@ -1,0 +1,13 @@
+@startuml
+
+abstract class Product
+abstract class Creator {
+    +FactoryMethod()
+}
+class ConcreteProduct
+class ConcreteCreator
+ConcreteProduct ..|> Product
+ConcreteCreator ..|> Creator
+ConcreteCreator ..> ConcreteProduct
+
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+
+abstract class AbstractHumanFactory {
+    +Human createHuman(Class c)
+}
+interface Human {
+    +void getColor()
+    +void talk()
+}
+class NvWa {
+
+}
+class HumanFactory {
+
+}
+HumanFactory ..|> AbstractHumanFactory
+AbstractHumanFactory ..> Human
+NvWa --> AbstractHumanFactory
+NvWa --> Human
+BlackHuman ..|> Human
+YellowHuman ..|> Human
+WhiteHuman ..|> Human
+
+
+
+
+
+@enduml
